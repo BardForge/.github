@@ -1,5 +1,7 @@
 # BardForge
 
+<p align="center"><img src="https://raw.githubusercontent.com/BardForge/.github/dev/brand/bardforge.png" alt="BardForge" width="280" /></p>
+
 Инструменты для звукового сопровождения настольных ролевых игр: окружение, музыка, эффекты и сцены, которые мастер запускает во время игры.
 
 Основной проект — [BardForge Studio](https://github.com/ShinozakiAichi/BardForge-Studio). Сейчас он находится в личном репозитории автора. Перенос в организацию BardForge ещё не выполнен.
