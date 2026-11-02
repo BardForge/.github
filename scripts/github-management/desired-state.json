@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "repositories": [
+    "BardForge/.github",
+    "BardForge/bardforge",
+    "BardForge/bardforge-foundry",
+    "ShinozakiAichi/BardForge-Studio"
+  ],
+  "labels": [
+    {
+      "name": "type:feature",
+      "color": "1d76db",
+      "description": "Новая пользовательская возможность.",
+      "aliases": ["feature", "type:feat"]
+    },
+    {
+      "name": "type:bug",
+      "color": "1d76db",
+      "description": "Ошибка в существующем поведении.",
+      "aliases": ["bug"]
+    },
+    {
+      "name": "type:improvement",
+      "color": "1d76db",
+      "description": "Улучшение существующей возможности.",
+      "aliases": ["enhancement", "improvement"]
+    },
+    {
+      "name": "type:documentation",
+      "color": "1d76db",
+      "description": "Пользовательская и техническая документация.",
+      "aliases": ["type:docs", "documentation", "docs"]
+    },
+    {
+      "name": "type:research",
+      "color": "1d76db",
+      "description": "Исследование, эксперимент или проверка гипотезы.",
+      "aliases": ["research"]
+    },
+    {
+      "name": "type:security",
+      "color": "1d76db",
+      "description": "Безопасность приложения, данных и зависимостей.",
+      "aliases": ["security"]
+    },
+    {
+      "name": "type:maintenance",
+      "color": "1d76db",
+      "description": "Сопровождение, проверки, тесты и техническое обслуживание.",
+      "aliases": ["type:chore", "type:test", "type:tests", "chore", "maintenance"]
+    },
+    {
+      "name": "type:refactor",
+      "color": "1d76db",
+      "description": "Изменение внутренней структуры без изменения поведения.",
+      "aliases": ["refactor", "type:refactoring"]
+    },
+    {
+      "name": "priority:P0",
+      "color": "b60205",
+      "description": "Критический блокер: требуется немедленная реакция.",
+      "aliases": ["priority:p0"]
+    },
+    {
+      "name": "priority:P1",
+      "color": "d93f0b",
+      "description": "Высокий приоритет для ближайшего рабочего цикла.",
+      "aliases": ["priority:p1"]
+    },
+    {
+      "name": "priority:P2",
+      "color": "fbca04",
+      "description": "Обычный плановый приоритет.",
+      "aliases": ["priority:p2"]
+    },
+    {
+      "name": "priority:P3",
+      "color": "c2e0c6",
+      "description": "Низкий приоритет: можно отложить.",
+      "aliases": ["priority:p3"]
+    },
+    {
+      "name": "area:core",
+      "color": "5319e7",
+      "description": "Общее ядро и модель данных.",
+      "aliases": []
+    },
+    {
+      "name": "area:desktop",
+      "color": "5319e7",
+      "description": "Настольное приложение, установка и обновления.",
+      "aliases": []
+    },
+    {
+      "name": "area:audio-engine",
+      "color": "5319e7",
+      "description": "Аудиодвижок, воспроизведение и обработка сигнала.",
+      "aliases": ["area:audio"]
+    },
+    {
+      "name": "area:mixer",
+      "color": "5319e7",
+      "description": "Микшер, громкость, группы и маршрутизация.",
+      "aliases": []
+    },
+    {
+      "name": "area:tracks",
+      "color": "5319e7",
+      "description": "Аудиодорожки и их параметры.",
+      "aliases": []
+    },
+    {
+      "name": "area:scenes",
+      "color": "5319e7",
+      "description": "Сцены, импорт, экспорт и последовательности.",
+      "aliases": []
+    },
+    {
+      "name": "area:presets",
+      "color": "5319e7",
+      "description": "Сохранённые наборы параметров и шаблоны.",
+      "aliases": []
+    },
+    {
+      "name": "area:foundry",
+      "color": "5319e7",
+      "description": "Необязательная интеграция с Foundry VTT.",
+      "aliases": []
+    },
+    {
+      "name": "area:network",
+      "color": "5319e7",
+      "description": "Сеть, транспорт и удалённое воспроизведение.",
+      "aliases": []
+    },
+    {
+      "name": "area:ui",
+      "color": "5319e7",
+      "description": "Интерфейс, доступность и локализация.",
+      "aliases": []
+    },
+    {
+      "name": "area:plugins",
+      "color": "5319e7",
+      "description": "Необязательные подключаемые расширения.",
+      "aliases": []
+    },
+    {
+      "name": "area:ai",
+      "color": "5319e7",
+      "description": "Необязательные функции искусственного интеллекта.",
+      "aliases": []
+    },
+    {
+      "name": "area:voice",
+      "color": "5319e7",
+      "description": "Голос, микрофон и голосовая обработка.",
+      "aliases": []
+    },
+    {
+      "name": "area:music",
+      "color": "5319e7",
+      "description": "Музыкальные возможности и музыкальный контент.",
+      "aliases": []
+    },
+    {
+      "name": "area:ci",
+      "color": "5319e7",
+      "description": "Сборки, автоматические проверки и доставка.",
+      "aliases": ["area:build"]
+    },
+    {
+      "name": "area:docs",
+      "color": "5319e7",
+      "description": "Структура и сопровождение документации.",
+      "aliases": []
+    },
+    {
+      "name": "status:blocked",
+      "color": "e99695",
+      "description": "Работа остановлена внешним препятствием.",
+      "aliases": ["blocked"]
+    },
+    {
+      "name": "status:needs-review",
+      "color": "e99695",
+      "description": "Требуется проверка решения или изменений.",
+      "aliases": ["needs-review"]
+    },
+    {
+      "name": "status:needs-testing",
+      "color": "e99695",
+      "description": "Требуется проверка поведения в целевой среде.",
+      "aliases": ["needs-testing"]
+    },
+    {
+      "name": "status:ready",
+      "color": "e99695",
+      "description": "Подготовлено к следующему согласованному шагу.",
+      "aliases": ["ready"]
+    },
+    {
+      "name": "good-first-issue",
+      "color": "0e8a16",
+      "description": "Небольшая задача с понятным входом для нового участника.",
+      "aliases": ["good first issue"]
+    },
+    {
+      "name": "help-wanted",
+      "color": "0e8a16",
+      "description": "Нужна помощь участников сообщества.",
+      "aliases": ["help wanted"]
+    },
+    {
+      "name": "breaking-change",
+      "color": "b60205",
+      "description": "Изменение, требующее миграции или нарушающее совместимость.",
+      "aliases": []
+    },
+    {
+      "name": "dependencies",
+      "color": "0366d6",
+      "description": "Обновление или сопровождение зависимостей.",
+      "aliases": []
+    },
+    {
+      "name": "regression",
+      "color": "b60205",
+      "description": "Ранее работавшее поведение перестало работать.",
+      "aliases": []
+    },
+    {
+      "name": "needs-reproduction",
+      "color": "fef2c0",
+      "description": "Нужны воспроизводимый пример и шаги повторения ошибки.",
+      "aliases": []
+    }
+  ],
+  "milestones": [
+    {
+      "title": "v0.1.0 — Audio MVP",
+      "description": "Рабочее локальное аудиоядро: импорт аудио, микшер, группы, громкость и сцены. Foundry — необязательная отдельно подключаемая интеграция. Для приёмки интеграции обязательны подтверждённая проверка в Foundry и удалённое воспроизведение на другом клиенте; локальный тест транспорта не заменяет эту проверку.",
+      "aliases": ["v0.1.0", "v0.1.0 - Audio MVP", "Audio MVP"]
+    },
+    {
+      "title": "v0.2.0 — Mixer Improvements",
+      "description": "Предварительное направление: улучшения микшера и управления дорожками. Состав работ уточняется по обратной связи; это не обещание реализации или даты выпуска.",
+      "aliases": ["v0.2.0", "v0.2.0 - Mixer Improvements"]
+    },
+    {
+      "title": "v0.3.0 — Workspace",
+      "description": "Предварительное направление: организация рабочего пространства. Состав работ уточняется; это не обещание реализации или даты выпуска.",
+      "aliases": ["v0.3.0", "v0.3.0 - Workspace"]
+    },
+    {
+      "title": "Future",
+      "description": "Идеи и задачи вне подтверждённого ближайшего объёма. Приоритет, состав и сроки не обещаны.",
+      "aliases": []
+    }
+  ]
+}

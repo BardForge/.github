@@ -1,0 +1,90 @@
+name: 'Ошибка'
+description: 'Воспроизводимое отклонение от ожидаемого поведения.'
+title: '[Bug] '
+labels:
+  - 'type:bug'
+body:
+  - type: 'markdown'
+    attributes:
+      value: 'Проверьте существующие Issues. Уязвимости направляйте через раздел Security и SECURITY.md; не публикуйте детали эксплуатации. Не добавляйте секреты, локальные пути, внутренние спецификации, агентские материалы, пользовательское аудио или приватные AI-промпты.'
+  - type: 'dropdown'
+    id: 'area'
+    attributes:
+      label: 'Область'
+      description: 'Выберите наиболее близкую область; окончательные метки назначит сопровождающий.'
+      options:
+        - 'area:core'
+        - 'area:desktop'
+        - 'area:audio-engine'
+        - 'area:mixer'
+        - 'area:tracks'
+        - 'area:scenes'
+        - 'area:presets'
+        - 'area:foundry'
+        - 'area:network'
+        - 'area:ui'
+        - 'area:plugins'
+        - 'area:ai'
+        - 'area:voice'
+        - 'area:music'
+        - 'area:ci'
+        - 'area:docs'
+    validations:
+      required: true
+  - type: 'dropdown'
+    id: 'priority'
+    attributes:
+      label: 'Предлагаемый приоритет'
+      description: 'Приоритет подтверждает сопровождающий. P0 — критический инцидент; P1 — серьёзный блокер; P2 — плановая работа; P3 — небольшое улучшение.'
+      options:
+        - 'P0'
+        - 'P1'
+        - 'P2'
+        - 'P3'
+      default: 2
+    validations:
+      required: true
+  - type: 'textarea'
+    id: 'environment'
+    attributes:
+      label: 'Версия и среда'
+      description: 'Укажите версию/commit, ОС, способ запуска и затронутую интеграцию. Не включайте локальные пути. Для Foundry укажите, был ли реальный мир и удалённый игрок.'
+    validations:
+      required: true
+  - type: 'textarea'
+    id: 'steps'
+    attributes:
+      label: 'Шаги воспроизведения'
+      description: 'Нумерованные действия на безопасных тестовых данных. Если воспроизведение нестабильно, укажите частоту.'
+    validations:
+      required: true
+  - type: 'textarea'
+    id: 'expected'
+    attributes:
+      label: 'Ожидаемый результат'
+      description: 'Что должно произойти?'
+    validations:
+      required: true
+  - type: 'textarea'
+    id: 'actual'
+    attributes:
+      label: 'Фактический результат и влияние'
+      description: 'Что произошло, затрагивает ли это звук или сохранность данных, есть ли обходной путь?'
+    validations:
+      required: true
+  - type: 'textarea'
+    id: 'evidence'
+    attributes:
+      label: 'Подтверждения'
+      description: 'Очищенный фрагмент журнала, скриншот или описание проверки. Не прикладывайте пользовательское аудио и полные приватные журналы.'
+    validations:
+      required: false
+  - type: 'checkboxes'
+    id: 'checklist'
+    attributes:
+      label: 'Проверка перед отправкой'
+      options:
+        - label: 'Я проверил существующие задачи и описал отличие от похожих сообщений.'
+          required: true
+        - label: 'В сообщении нет секретов, приватных данных и материалов; подозрение на уязвимость направляю по SECURITY.md.'
+          required: true
