@@ -79,6 +79,13 @@ body:
       description: 'Другие способы решить проблему и их недостатки.'
     validations:
       required: false
+  - type: 'textarea'
+    id: 'dependencies'
+    attributes:
+      label: 'Зависимости'
+      description: 'Связанные задачи, компоненты, доступная тестовая среда и другие необходимые условия. Оставьте пустым, если зависимостей нет.'
+    validations:
+      required: false
   - type: 'checkboxes'
     id: 'checklist'
     attributes:
