@@ -1,0 +1,60 @@
+name: 'Документация'
+description: 'Исправить или дополнить инструкции, примеры и переводы.'
+title: '[Docs] '
+labels:
+  - 'type:documentation'
+  - 'area:docs'
+body:
+  - type: 'markdown'
+    attributes:
+      value: 'Проверьте существующие Issues. Уязвимости направляйте через раздел Security и SECURITY.md; не публикуйте детали эксплуатации. Не добавляйте секреты, локальные пути, внутренние спецификации, агентские материалы, пользовательское аудио или приватные AI-промпты.'
+  - type: 'dropdown'
+    id: 'priority'
+    attributes:
+      label: 'Предлагаемый приоритет'
+      description: 'Приоритет подтверждает сопровождающий. P0 — критический инцидент; P1 — серьёзный блокер; P2 — плановая работа; P3 — небольшое улучшение.'
+      options:
+        - 'P0'
+        - 'P1'
+        - 'P2'
+        - 'P3'
+      default: 2
+    validations:
+      required: true
+  - type: 'textarea'
+    id: 'location'
+    attributes:
+      label: 'Страница или раздел'
+      description: 'Публичная ссылка либо название документа и раздела.'
+    validations:
+      required: true
+  - type: 'textarea'
+    id: 'problem'
+    attributes:
+      label: 'Что непонятно или неверно'
+      description: 'Укажите конкретный фрагмент и кому он мешает.'
+    validations:
+      required: true
+  - type: 'textarea'
+    id: 'proposal'
+    attributes:
+      label: 'Предлагаемое содержание'
+      description: 'Какая формулировка или инструкция нужна? Укажите RU/EN, если это перевод.'
+    validations:
+      required: true
+  - type: 'textarea'
+    id: 'verification'
+    attributes:
+      label: 'Основание и проверка'
+      description: 'Публичный источник, проверенная команда или пользовательский сценарий. Не выдавайте экспериментальные возможности за готовые.'
+    validations:
+      required: true
+  - type: 'checkboxes'
+    id: 'checklist'
+    attributes:
+      label: 'Проверка перед отправкой'
+      options:
+        - label: 'Я проверил существующие задачи и описал отличие от похожих сообщений.'
+          required: true
+        - label: 'В сообщении нет секретов, приватных данных и материалов; подозрение на уязвимость направляю по SECURITY.md.'
+          required: true

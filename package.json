@@ -1,0 +1,13 @@
+{
+  "name": "bardforge-community",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "prettier --check . && node scripts/check-public.mjs",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  }
+}

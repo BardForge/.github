@@ -1,0 +1,5 @@
+# Keep only the declarative catalog public; all generated JSON remains local.
+*.json
+!desired-state.json
+__pycache__/
+*.py[cod]
