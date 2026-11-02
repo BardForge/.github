@@ -79,6 +79,20 @@ body:
       description: 'Очищенный фрагмент журнала, скриншот или описание проверки. Не прикладывайте пользовательское аудио и полные приватные журналы.'
     validations:
       required: false
+  - type: 'textarea'
+    id: 'acceptance'
+    attributes:
+      label: 'Критерии исправления'
+      description: 'Какие наблюдаемые проверки подтвердят исправление и отсутствие регрессии? Сопровождающий уточнит критерии при разборе.'
+    validations:
+      required: true
+  - type: 'textarea'
+    id: 'dependencies'
+    attributes:
+      label: 'Зависимости'
+      description: 'Связанные задачи, компоненты, доступная тестовая среда и другие необходимые условия. Оставьте пустым, если зависимостей нет.'
+    validations:
+      required: false
   - type: 'checkboxes'
     id: 'checklist'
     attributes:
