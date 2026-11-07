@@ -8,7 +8,7 @@
 
 BardForge — модульная аудиоплатформа. Сегодня её основа — локальный микшер для мастеров настольных RPG, D&D и других игровых систем. Он подходит для звукового сопровождения встреч и историй независимо от правил игры. Дальнейшее развитие охватывает музыкальные инструменты, голос, AI и игровые интеграции.
 
-Основное приложение **бесплатно**, программный код открыт по **MIT**. Сейчас доступна development-реализация для Windows x64; публичного стабильного EXE ещё нет. [Как установить и попробовать](https://github.com/ShinozakiAichi/BardForge-Studio/blob/dev/docs/getting-started/installation.md).
+Основное приложение **бесплатно**, программный код открыт по **MIT**. Сейчас доступна development-реализация для Windows x64; публичного стабильного EXE ещё нет. [Как установить и попробовать](https://github.com/BardForge/bardforge/blob/dev/docs/getting-started/installation.md).
 
 ## Возможности и готовность
 
@@ -25,17 +25,17 @@ Core должен оставаться полезным без модулей: �
 3. Сохраните сцену, запускайте фон и эффекты во время игры.
 4. Переносите сцену вместе с аудио через `.bardforge`.
 
-[Пошаговый «Ночной лес»](https://github.com/ShinozakiAichi/BardForge-Studio/blob/dev/docs/getting-started/first-scene.md) · [руководства пользователя](https://github.com/ShinozakiAichi/BardForge-Studio/blob/dev/docs/README.md).
+[Пошаговый «Ночной лес»](https://github.com/BardForge/bardforge/blob/dev/docs/getting-started/first-scene.md) · [руководства пользователя](https://github.com/BardForge/bardforge/blob/dev/docs/README.md).
 
 ## Скриншоты
 
-![Реальная демосцена BardForge Studio](https://raw.githubusercontent.com/ShinozakiAichi/BardForge-Studio/dev/docs/images/studio-ru.png)
+![Реальная демосцена BardForge Studio](https://raw.githubusercontent.com/BardForge/bardforge/dev/docs/images/studio-ru.png)
 
-Текущий интерфейс `0.1.0-dev.3` в браузерном просмотре, встроенные синтезированные звуки. Это не макет будущих функций. [English interface](https://github.com/ShinozakiAichi/BardForge-Studio/blob/dev/docs/images/studio-en.png).
+Текущий интерфейс `0.1.0-dev.3` в браузерном просмотре, встроенные синтезированные звуки. Это не макет будущих функций. [English interface](https://github.com/BardForge/bardforge/blob/dev/docs/images/studio-en.png).
 
 ## Официальные репозитории
 
-- [BardForge Studio](https://github.com/ShinozakiAichi/BardForge-Studio) — Core и desktop-приложение. Пока в аккаунте автора; перенос в организацию ещё не выполнен.
+- [BardForge Studio](https://github.com/BardForge/bardforge) — Core и desktop-приложение. Основной репозиторий организации BardForge.
 - [bardforge-foundry](https://github.com/BardForge/bardforge-foundry) — основной репозиторий отдельной экспериментальной интеграции Foundry.
 - [.github](https://github.com/BardForge/.github) — профиль, правила участия и общие материалы сообщества.
 
@@ -43,11 +43,11 @@ Core должен оставаться полезным без модулей: �
 
 Ближайший ориентир — **v0.1.0 Audio MVP** и проверки, необходимые для стабильного выпуска. Затем — улучшения микшера/пресетов и рабочих пространств. AI, голосовые и музыкальные инструменты — дальнейшие направления без обещанных дат.
 
-[Roadmap](https://github.com/ShinozakiAichi/BardForge-Studio/blob/dev/docs/roadmap.md) · [единая доска BardForge Development](https://github.com/orgs/BardForge/projects/1).
+[Roadmap](https://github.com/BardForge/bardforge/blob/dev/docs/roadmap.md) · [единая доска BardForge Development](https://github.com/orgs/BardForge/projects/1).
 
 ## Как поддержать проект
 
-Сообщайте о воспроизводимых ошибках, тестируйте development-сборки на своих тестовых данных, улучшайте руководства и переводы, предлагайте небольшие PR. Идеи и вопросы — в [Discussions](https://github.com/orgs/BardForge/discussions), конкретные задачи — в [Issues](https://github.com/ShinozakiAichi/BardForge-Studio/issues). Официальные платёжные страницы и сбор пожертвований не объявлены.
+Сообщайте о воспроизводимых ошибках, тестируйте development-сборки на своих тестовых данных, улучшайте руководства и переводы, предлагайте небольшие PR. Идеи и вопросы — в [Discussions](https://github.com/orgs/BardForge/discussions), конкретные задачи — в [Issues](https://github.com/BardForge/bardforge/issues). Официальные платёжные страницы и сбор пожертвований не объявлены.
 
 [Правила участия](https://github.com/BardForge/.github/blob/dev/CONTRIBUTING.md). Внешние участники используют fork и PR в `dev`; это не предоставляет права записи. `main` и релизы требуют решения владельца.
 

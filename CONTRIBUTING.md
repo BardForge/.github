@@ -1,6 +1,6 @@
 # Участие в BardForge
 
-Спасибо за помощь в развитии инструментов для звукового сопровождения настольных RPG. Начните с существующих Issues в [BardForge Studio](https://github.com/ShinozakiAichi/BardForge-Studio/issues), чтобы не дублировать работу.
+Спасибо за помощь в развитии инструментов для звукового сопровождения настольных RPG. Начните с существующих Issues в [BardForge Studio](https://github.com/BardForge/bardforge/issues), чтобы не дублировать работу.
 
 ## Предложить изменение
 
