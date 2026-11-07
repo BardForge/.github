@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Сообщить о возможной уязвимости
-    url: https://github.com/ShinozakiAichi/BardForge-Studio/security
+    url: https://github.com/BardForge/bardforge/security
     about: Используйте Report a vulnerability, если private reporting включён. Иначе следуйте SECURITY.md; не публикуйте детали эксплуатации, секреты или приватные данные.

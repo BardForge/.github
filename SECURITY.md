@@ -4,7 +4,7 @@ BardForge находится в разработке. Стабильный по�
 
 ## Частное сообщение
 
-Откройте [раздел Security текущего репозитория](https://github.com/ShinozakiAichi/BardForge-Studio/security). Если доступна кнопка **Report a vulnerability**, используйте её: она появляется при включённом private vulnerability reporting.
+Откройте [раздел Security текущего репозитория](https://github.com/BardForge/bardforge/security). Если доступна кнопка **Report a vulnerability**, используйте её: она появляется при включённом private vulnerability reporting.
 
 Если кнопки нет, не размещайте детали эксплуатации в публичном Issue. Используйте только частный контакт, который владелец явно опубликовал в своём профиле. Если такого канала нет, можно создать нейтральный Issue с просьбой включить private vulnerability reporting, без описания уязвимого места, payload, секретов или воспроизводящего кода. Отдельный security-email и гарантированный срок ответа проекта пока не установлены.
 
